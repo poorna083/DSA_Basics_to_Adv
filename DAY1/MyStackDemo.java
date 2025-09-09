@@ -8,7 +8,9 @@ public class MyStackDemo {
         for (int i = 0; i < 5; i++) {
             stack.add(sc.nextLine());
         }
-        System.out.println(stack.empty());
+        System.out.println(stack.capacity());
+        System.out.println(stack.peek());
+        System.out.println(stack.get(sc.nextInt()));
         System.out.println(stack);
         sc.close();
     }
