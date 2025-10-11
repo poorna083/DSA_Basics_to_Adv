@@ -17,5 +17,6 @@ public class Demo {
             }
         }
         System.out.println(list);
+        sc.close();
     }
 }
