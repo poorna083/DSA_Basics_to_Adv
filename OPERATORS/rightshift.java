@@ -9,5 +9,6 @@ public class rightshift {
         int shift = sc.nextInt(); //2 --> 1 0 0 0 0 0 
         int b = a << shift; 
         System.out.println(b);
+        sc.close();
     }
 }
