@@ -25,5 +25,6 @@ public class Demo {
         int target = sc.nextInt();
         Linkedlist i = new Linkedlist();
         System.out.println(i.isLinkedlist(list, target));
+        sc.close();
     }
 }
