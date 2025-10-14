@@ -6,6 +6,7 @@ class Linkedlist{
     public int isLinkedlist(ArrayList<Integer> list, int target) {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == target) {
+                System.out.println("The index is:");
                 return i;
             }
         }
