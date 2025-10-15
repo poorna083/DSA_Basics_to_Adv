@@ -20,5 +20,6 @@ public class Demo {
         int target = sc.nextInt();
         BINARYSEARCH b = new BINARYSEARCH();
         System.out.println(b.binary(array, target));
+        sc.close();
     }
 }
